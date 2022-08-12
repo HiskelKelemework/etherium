@@ -2,7 +2,7 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
 
-const { abi, evm } = require('./compile');
+const { abi, evm } = require('./compile').Inbox;
 
 const provider = new HDWalletProvider(
     "pattern essay hybrid eternal kiwi away victory spare armed heart hotel scan",
